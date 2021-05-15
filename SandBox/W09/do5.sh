@@ -66,8 +66,8 @@ while true ; do
         (( "$MaxSwap" < "$TMP1" )) && { MaxSwap=$TMP1; fecho "MaxSwap ${MaxSwap}M" ; }
         sleep 6
     done
-    sleep $((1+EXTRAS++/60))
-    (( "$EXTRAS" > "60" )) && EXTRA=0
+    sleep $((1+(++EXTRAS/60)))
+    (( "$EXTRAS" > "60" )) && EXTRAS=0
 done
 exit
 
