@@ -1,22 +1,21 @@
 #!/bin/bash
-# Fri 14 May 14:29:10 WIB 2021
+# REV01 Sat 15 May 22:25:26 WIB 2021
+# START Fri 14 May 14:29:10 WIB 2021
 
+CHAPTER="05"
 WEEK="09"
-FILE1="WEEK$WEEK-REPORT1.txt"
+FILE="WEEK$WEEK-REPORT-CH$CHAPTER.txt"
+
 # WEEKDIR="$HOME/RESULT/W$WEEK/"
-WEEKDIR="$HOME/git/os211quiz/SandBox/W09/W09/"
+WEEKDIR="$HOME/git/os211quiz/SandBox/W$WEEK/W$WEEK/"
+
 LFSDIR="/mnt/lfs"
 INPUTTOKEN="$(whoami)W$WEEK"
 
-byebye()   { echo $1; exit -1;}
+byebye()    { echo $1; exit -1; }
 chktokenn() {
     STAMP=$(date +%M%S)
     echo "$(whoami) $STAMP-$(echo $STAMP$(whoami)$1 | sha1sum  | cut -c1-4 | tr '[:lower:]' '[:upper:]' )"
-}
-diskSpace() {
-    SPACE=$(df | awk '/\/mnt\/lfs$/ {print $3}')
-    (( SPACE = SPACE / 1024 ))
-    echo $SPACE
 }
 okSources() {
     pushd $LFSDIR/sources/                         2>&1 > /dev/null
@@ -29,27 +28,45 @@ verifyTokenn() {
     RESULT="$(echo $DATE$2$1 | sha1sum  | cut -c1-4 | tr '[:lower:]' '[:upper:]' )"
     [ $SHA == $RESULT ] && echo "Verified"  || echo "Error"
 }
+fecho(){
+    echo "ZCZC $1" | tee -a $FILE
+}
 
-rm    -rf $WEEKDIR
-mkdir -p  $WEEKDIR
+mkdir -pv $WEEKDIR
 [ -d $WEEKDIR ] && cd $WEEKDIR || byebye "Error: No $WEEKDIR"
 [ -d $LFSDIR ]                 || byebye "Error: No $LFSDIR"
 [ -d $LFSDIR/sources/ ]        || byebye "Error: No $LFSDIR/sources/"
 [ -f $LFSDIR/sources/md5sums ] || byebye "Error: No $LFSDIR/sources/md5sums"
-echo "ZCZC pwd $(pwd)"                                 > $FILE1
-echo "ZCZC date1 $(date +%y%m%d-%H%M)"                >> $FILE1
-echo "ZCZC dirSources $LFSDIR/sources/"               >> $FILE1
-echo "ZCZC okSources $(okSources)"                    >> $FILE1
-echo "ZCZC diskSpace $(diskSpace) MB"                 >> $FILE1
-echo "ZCZC hostname $(hostname)"                      >> $FILE1
-echo "ZCZC username $(whoami)"                        >> $FILE1
-echo "ZCZC INPUTTOKEN $INPUTTOKEN"                    >> $FILE1
-TOKEN=$(chktokenn $INPUTTOKEN)
-echo "ZCZC chktokenn $TOKEN"                          >> $FILE1
-VERIFY=$(verifyTokenn $INPUTTOKEN $TOKEN)
-echo "ZCZC verifyTokenn $INPUTTOKEN $TOKEN $VERIFY"   >> $FILE1
-echo "ZCZC date2 $(date +%y%m%d-%H%M)"                >> $FILE1
+rm -f $FILE
+fecho "pwd $(pwd)"
+fecho "date $(date +%y%m%d-%H%M)"
+fecho "hostname $(hostname)"
+fecho "username $(whoami)"
+fecho "okSources $(okSources)"
+fecho "Sources  $(du -h $LFSDIR/sources/)"
+
+MaxLFS=0
+MaxROOT=0
+MaxMemory=0
+MaxSwap="-1"
+while true ; do
+    TOKEN=$(chktokenn $INPUTTOKEN)
+    VERIFY=$(verifyTokenn $INPUTTOKEN $TOKEN)
+    fecho "verifyTokenn $INPUTTOKEN $TOKEN $VERIFY"
+    LOOP=10
+    while (( LOOP-- )) ; do
+        TMP1=$(($(df|awk '/ \/mnt\/lfs$/ {print $3}')/1024))
+        (( "$MaxLFS" < "$TMP1" )) && { MaxLFS=$TMP1; fecho "MaxLFS ${MaxLFS}M" ; }
+        TMP1=$(($(df|awk '/ \/$/ {print $3}')/1024))
+        (( "$MaxROOT" < "$TMP1" )) && { MaxROOT=$TMP1; fecho "MaxROOT ${MaxROOT}M" ; }
+        TMP1=$(($(free|awk '/Mem:/ {print $3}')/1024))
+        (( "$MaxMemory" < "$TMP1" )) && { MaxMemory=$TMP1; fecho "MaxMemory ${MaxMemory}M" ; }
+        TMP1=$(($(free|awk '/Swap:/ {print $3}')/1024))
+        (( "$MaxSwap" < "$TMP1" )) && { MaxSwap=$TMP1; fecho "MaxSwap ${MaxSwap}M" ; }
+        sleep 6
+    done
+    sleep 2
+done
 
 exit
-
 
