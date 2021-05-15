@@ -49,6 +49,7 @@ MaxLFS=0
 MaxROOT=0
 MaxMemory=0
 MaxSwap="-1"
+EXTRAS=60
 while true ; do
     TOKEN=$(chktokenn $INPUTTOKEN)
     VERIFY=$(verifyTokenn $INPUTTOKEN $TOKEN)
@@ -65,8 +66,8 @@ while true ; do
         (( "$MaxSwap" < "$TMP1" )) && { MaxSwap=$TMP1; fecho "MaxSwap ${MaxSwap}M" ; }
         sleep 6
     done
-    sleep 2
+    sleep $((1+EXTRAS++/60))
+    (( "$EXTRAS" > "60" )) && EXTRA=0
 done
-
 exit
 

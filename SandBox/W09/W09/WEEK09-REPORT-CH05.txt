@@ -1,15 +1,14 @@
 ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
-ZCZC date 210515-2354
+ZCZC date 210516-0014
 ZCZC hostname cbkadal
 ZCZC username cbkadal
 ZCZC okSources 84
 ZCZC Sources  431M	/mnt/lfs/sources/
-ZCZC verifyTokenn cbkadalW09 cbkadal 5403-C229 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 1500-545C Verified
 ZCZC MaxLFS 482M
-ZCZC MaxROOT 1645M
-ZCZC verifyTokenn cbkadalW09 cbkadal 5504-1DB2 Verified
-ZCZC verifyTokenn cbkadalW09 cbkadal 5605-96CE Verified
-ZCZC MaxROOT 2040M
-ZCZC MaxROOT 2523M
-ZCZC verifyTokenn cbkadalW09 cbkadal 5706-6D79 Verified
-ZCZC verifyTokenn cbkadalW09 cbkadal 5807-FC3F Verified
+ZCZC MaxROOT 1644M
+ZCZC MaxMemory 104M
+ZCZC MaxSwap 0M
+ZCZC MaxMemory 105M
+ZCZC verifyTokenn cbkadalW09 cbkadal 1601-ABE2 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 1703-C362 Verified
