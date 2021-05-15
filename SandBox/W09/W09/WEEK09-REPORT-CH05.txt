@@ -1,14 +1,23 @@
 ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
-ZCZC date 210516-0025
+ZCZC date 210516-0029
 ZCZC hostname cbkadal
 ZCZC username cbkadal
 ZCZC okSources 84
 ZCZC Sources  431M	/mnt/lfs/sources/
-ZCZC verifyTokenn cbkadalW09 cbkadal 2507-AED7 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 2946-5C2F Verified
 ZCZC MaxLFS 482M
 ZCZC MaxROOT 1644M
 ZCZC MaxMemory 105M
 ZCZC MaxSwap 0M
-ZCZC verifyTokenn cbkadalW09 cbkadal 2609-F4C8 Verified
-ZCZC verifyTokenn cbkadalW09 cbkadal 2710-2F27 Verified
-ZCZC verifyTokenn cbkadalW09 cbkadal 2812-1388 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3048-EEF4 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3149-3166 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3251-C6C0 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3352-E0ED Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3453-F73C Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3555-7EEA Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3656-6795 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3757-6E72 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 3858-B6FB Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4000-B18E Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4101-14B8 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4202-F31A Verified
