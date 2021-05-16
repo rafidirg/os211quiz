@@ -1,0 +1,22 @@
+ZCZC ===== Chapter 07_5 =====  Week 09 =====
+ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
+ZCZC date 210516-2125
+ZCZC hostname cbkadal
+ZCZC username cbkadal
+ZCZC Please Wait...
+ZCZC okSources 84
+ZCZC READY!
+ZCZC Sources  431M	/mnt/lfs/sources/
+ZCZC verifyTokenn cbkadalW09 cbkadal 2508-1671 Verified
+ZCZC MaxLFS 3089M
+ZCZC MaxROOT 1585M
+ZCZC MaxMemory 105M
+ZCZC MaxSwap 0M
+ZCZC MaxMemory 106M
+ZCZC MaxMemory 107M
+ZCZC MaxMemory 108M
+ZCZC verifyTokenn cbkadalW09 cbkadal 2611-F513 Verified
+ZCZC MaxMemory 109M
+ZCZC verifyTokenn cbkadalW09 cbkadal 2712-03AF Verified
+ZCZC MaxMemory 110M
+ZCZC verifyTokenn cbkadalW09 cbkadal 2813-A177 Verified
