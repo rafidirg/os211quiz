@@ -1,14 +1,151 @@
 ZCZC ===== Chapter 06 =====  Week 09 =====
 ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
-ZCZC date 210516-1850
+ZCZC date 210516-1943
 ZCZC hostname cbkadal
 ZCZC username cbkadal
 ZCZC Please Wait...
 ZCZC okSources 84
 ZCZC READY!
 ZCZC Sources  431M	/mnt/lfs/sources/
-ZCZC verifyTokenn cbkadalW09 cbkadal 5048-39E6 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4308-7282 Verified
 ZCZC MaxLFS 1864M
 ZCZC MaxROOT 1585M
-ZCZC MaxMemory 104M
+ZCZC MaxMemory 105M
 ZCZC MaxSwap 0M
+ZCZC MaxLFS 1875M
+ZCZC MaxMemory 108M
+ZCZC MaxMemory 111M
+ZCZC MaxLFS 1878M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4410-C0C6 Verified
+ZCZC MaxLFS 1884M
+ZCZC MaxLFS 1886M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4512-AAFC Verified
+ZCZC MaxLFS 1888M
+ZCZC MaxMemory 155M
+ZCZC MaxLFS 1901M
+ZCZC MaxLFS 1904M
+ZCZC MaxLFS 1910M
+ZCZC MaxLFS 1919M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4613-A165 Verified
+ZCZC MaxROOT 1586M
+ZCZC MaxMemory 451M
+ZCZC MaxLFS 1926M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4715-D02C Verified
+ZCZC MaxLFS 1941M
+ZCZC MaxLFS 1944M
+ZCZC MaxLFS 1945M
+ZCZC MaxLFS 1946M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4816-79C5 Verified
+ZCZC MaxLFS 1952M
+ZCZC MaxLFS 1962M
+ZCZC MaxLFS 2010M
+ZCZC MaxLFS 2058M
+ZCZC verifyTokenn cbkadalW09 cbkadal 4918-625E Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5019-281F Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5121-3231 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5222-F658 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5324-8BFF Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5425-2632 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5526-FAAC Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5628-247C Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5729-D066 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5831-A4B9 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5932-F023 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 0033-D052 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 0135-A9C9 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 0236-A333 Verified
+ZCZC MaxLFS 2301M
+ZCZC MaxLFS 2302M
+ZCZC MaxLFS 2305M
+ZCZC MaxLFS 2312M
+ZCZC MaxLFS 2319M
+ZCZC MaxLFS 2334M
+ZCZC MaxROOT 1587M
+ZCZC MaxLFS 2371M
+ZCZC MaxLFS 2390M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0338-0077 Verified
+ZCZC MaxLFS 2422M
+ZCZC MaxLFS 2439M
+ZCZC MaxLFS 2491M
+ZCZC MaxLFS 2821M
+ZCZC MaxLFS 2902M
+ZCZC MaxLFS 2938M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0439-3B65 Verified
+ZCZC MaxLFS 2941M
+ZCZC MaxLFS 2952M
+ZCZC MaxLFS 2963M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0541-D321 Verified
+ZCZC MaxLFS 2974M
+ZCZC MaxLFS 2984M
+ZCZC MaxLFS 2985M
+ZCZC MaxLFS 2991M
+ZCZC MaxLFS 2998M
+ZCZC MaxLFS 3001M
+ZCZC MaxLFS 3002M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0642-6FC1 Verified
+ZCZC MaxLFS 3021M
+ZCZC MaxMemory 586M
+ZCZC MaxLFS 3050M
+ZCZC MaxMemory 722M
+ZCZC MaxLFS 3066M
+ZCZC MaxMemory 1151M
+ZCZC MaxLFS 3079M
+ZCZC MaxMemory 1576M
+ZCZC MaxLFS 3082M
+ZCZC MaxMemory 2076M
+ZCZC MaxLFS 3090M
+ZCZC MaxROOT 1595M
+ZCZC MaxMemory 2506M
+ZCZC MaxLFS 3107M
+ZCZC MaxROOT 1606M
+ZCZC MaxMemory 2724M
+ZCZC MaxLFS 3125M
+ZCZC MaxROOT 1617M
+ZCZC MaxLFS 3142M
+ZCZC MaxROOT 1618M
+ZCZC MaxLFS 3153M
+ZCZC MaxROOT 1624M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0745-F206 Verified
+ZCZC MaxLFS 3162M
+ZCZC MaxROOT 1703M
+ZCZC MaxMemory 2744M
+ZCZC MaxLFS 3169M
+ZCZC MaxROOT 1710M
+ZCZC MaxLFS 3219M
+ZCZC MaxLFS 3236M
+ZCZC MaxLFS 3244M
+ZCZC MaxLFS 3262M
+ZCZC MaxLFS 3297M
+ZCZC MaxLFS 3313M
+ZCZC MaxLFS 3327M
+ZCZC MaxLFS 3335M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0847-39DA Verified
+ZCZC MaxLFS 3356M
+ZCZC MaxLFS 3366M
+ZCZC MaxLFS 3379M
+ZCZC MaxLFS 3393M
+ZCZC MaxLFS 3408M
+ZCZC MaxLFS 3422M
+ZCZC MaxLFS 3440M
+ZCZC MaxLFS 3445M
+ZCZC MaxLFS 3463M
+ZCZC MaxLFS 3475M
+ZCZC verifyTokenn cbkadalW09 cbkadal 0950-C86B Verified
+ZCZC MaxLFS 3499M
+ZCZC MaxLFS 3511M
+ZCZC MaxLFS 3526M
+ZCZC MaxLFS 3537M
+ZCZC MaxLFS 3550M
+ZCZC MaxLFS 3558M
+ZCZC MaxLFS 3567M
+ZCZC MaxLFS 3633M
+ZCZC MaxLFS 3649M
+ZCZC verifyTokenn cbkadalW09 cbkadal 1053-095D Verified
+ZCZC MaxLFS 3757M
+ZCZC MaxLFS 4655M
+ZCZC MaxLFS 4656M
+ZCZC MaxLFS 4661M
+ZCZC MaxLFS 4666M
+ZCZC MaxLFS 5723M
+ZCZC MaxLFS 5731M
+ZCZC verifyTokenn cbkadalW09 cbkadal 1154-9A64 Verified
