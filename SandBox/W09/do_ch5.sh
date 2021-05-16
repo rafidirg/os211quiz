@@ -39,6 +39,7 @@ mkdir -pv $WEEKDIR
 [ -d $LFSDIR/sources/ ]        || byebye "Error: No $LFSDIR/sources/"
 [ -f $LFSDIR/sources/md5sums ] || byebye "Error: No $LFSDIR/sources/md5sums"
 rm -f $FILE
+fecho "===== Chapter $CHAPTER =====  Week $WEEK ====="
 fecho "pwd $(pwd)"
 fecho "date $(date +%y%m%d-%H%M)"
 fecho "hostname $(hostname)"
