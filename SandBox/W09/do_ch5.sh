@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV02 Sun 16 May 11:40:33 WIB 2021
 # REV01 Sat 15 May 22:25:26 WIB 2021
 # START Fri 14 May 14:29:10 WIB 2021
 
