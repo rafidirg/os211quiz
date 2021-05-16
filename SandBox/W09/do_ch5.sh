@@ -42,7 +42,9 @@ fecho "pwd $(pwd)"
 fecho "date $(date +%y%m%d-%H%M)"
 fecho "hostname $(hostname)"
 fecho "username $(whoami)"
+fecho "Please Wait..."
 fecho "okSources $(okSources)"
+fecho "READY!"
 fecho "Sources  $(du -h $LFSDIR/sources/)"
 
 MaxLFS=0
