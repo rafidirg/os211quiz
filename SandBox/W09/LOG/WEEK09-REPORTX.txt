@@ -1,9 +1,0 @@
-ZCZC pwd /home/cbkadal/RESULT/W09
-ZCZC date4 210514-1832
-ZCZC diskSpace 3195 MB
-ZCZC hostname cbkadal
-ZCZC username cbkadal
-ZCZC INPUTTOKEN cbkadalW09
-ZCZC chktokenn cbkadal 3234-D5D2
-ZCZC verifyTokenn cbkadalW09 cbkadal 3234-D5D2 Verified
-ZCZC date5 210514-1832
