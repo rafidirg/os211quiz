@@ -3,7 +3,7 @@
 # REV01 Sat 15 May 22:25:26 WIB 2021
 # START Fri 14 May 14:29:10 WIB 2021
 
-CHAPTER="07_F"
+CHAPTER="07_TOOLS"
 WEEK="09"
 FILE="WEEK$WEEK-REPORT-CH$CHAPTER.txt"
 
@@ -38,7 +38,9 @@ mkdir -pv $WEEKDIR
 [ -d $LFSDIR ]                 || byebye "Error: No $LFSDIR"
 [ -d $LFSDIR/sources/ ]        || byebye "Error: No $LFSDIR/sources/"
 [ -f $LFSDIR/sources/md5sums ] || byebye "Error: No $LFSDIR/sources/md5sums"
+[ -f /tmp/$FILE ]              || byebye "Error: No /tmp/$FILE"
 rm -f $FILE
+fecho "$(cat /tmp/$FILE)"
 fecho "===== Chapter $CHAPTER =====  Week $WEEK ====="
 fecho "pwd $(pwd)"
 fecho "date $(date +%y%m%d-%H%M)"
@@ -48,30 +50,13 @@ fecho "Please Wait..."
 fecho "okSources $(okSources)"
 fecho "READY!"
 fecho "Sources  $(du -h $LFSDIR/sources/)"
+TOKEN=$(chktokenn $INPUTTOKEN)
+VERIFY=$(verifyTokenn $INPUTTOKEN $TOKEN)
+fecho "verifyTokenn $INPUTTOKEN $TOKEN $VERIFY"
+fecho "MaxLFS $(($(df|awk '/ \/mnt\/lfs$/ {print $3}')/1024))M"
+fecho "MaxROOT $(($(df|awk '/ \/$/ {print $3}')/1024))M"
+fecho "MaxMemory $(($(free|awk '/Mem:/ {print $3}')/1024))M"
+fecho "MaxSwap $(($(free|awk '/Swap:/ {print $3}')/1024))M"
 
-MaxLFS=0
-MaxROOT=0
-MaxMemory=0
-MaxSwap="-1"
-EXTRAS=60
-while true ; do
-    TOKEN=$(chktokenn $INPUTTOKEN)
-    VERIFY=$(verifyTokenn $INPUTTOKEN $TOKEN)
-    fecho "verifyTokenn $INPUTTOKEN $TOKEN $VERIFY"
-    LOOP=10
-    while (( LOOP-- )) ; do
-        TMP1=$(($(df|awk '/ \/mnt\/lfs$/ {print $3}')/1024))
-        (( "$MaxLFS" < "$TMP1" )) && { MaxLFS=$TMP1; fecho "MaxLFS ${MaxLFS}M" ; }
-        TMP1=$(($(df|awk '/ \/$/ {print $3}')/1024))
-        (( "$MaxROOT" < "$TMP1" )) && { MaxROOT=$TMP1; fecho "MaxROOT ${MaxROOT}M" ; }
-        TMP1=$(($(free|awk '/Mem:/ {print $3}')/1024))
-        (( "$MaxMemory" < "$TMP1" )) && { MaxMemory=$TMP1; fecho "MaxMemory ${MaxMemory}M" ; }
-        TMP1=$(($(free|awk '/Swap:/ {print $3}')/1024))
-        (( "$MaxSwap" < "$TMP1" )) && { MaxSwap=$TMP1; fecho "MaxSwap ${MaxSwap}M" ; }
-        sleep 6
-    done
-    sleep $((1+(++EXTRAS/60)))
-    (( "$EXTRAS" > "60" )) && EXTRAS=0
-done
 exit
 
