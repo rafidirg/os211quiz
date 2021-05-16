@@ -1,0 +1,92 @@
+ZCZC ===== Chapter 07_7 =====  Week 09 =====
+ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
+ZCZC date 210516-2137
+ZCZC hostname cbkadal
+ZCZC username cbkadal
+ZCZC Please Wait...
+ZCZC okSources 84
+ZCZC READY!
+ZCZC Sources  431M	/mnt/lfs/sources/
+ZCZC verifyTokenn cbkadalW09 cbkadal 3754-BBE6 Verified
+ZCZC MaxLFS 3089M
+ZCZC MaxROOT 1586M
+ZCZC MaxMemory 106M
+ZCZC MaxSwap 0M
+ZCZC MaxLFS 3578M
+ZCZC MaxMemory 177M
+ZCZC MaxLFS 3967M
+ZCZC verifyTokenn cbkadalW09 cbkadal 3856-3C5E Verified
+ZCZC MaxLFS 3968M
+ZCZC MaxLFS 3971M
+ZCZC MaxLFS 3986M
+ZCZC MaxMemory 239M
+ZCZC MaxLFS 4003M
+ZCZC MaxLFS 4043M
+ZCZC MaxMemory 806M
+ZCZC MaxLFS 4216M
+ZCZC verifyTokenn cbkadalW09 cbkadal 3958-E43D Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4059-3882 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4200-91C2 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4301-2E78 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4403-3CC5 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4504-05C4 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4606-1F8E Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4707-382C Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4809-7856 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 4911-D7A7 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5012-157F Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5114-E86C Verified
+ZCZC MaxMemory 1911M
+ZCZC MaxMemory 2777M
+ZCZC MaxMemory 3357M
+ZCZC MaxMemory 3914M
+ZCZC MaxMemory 4491M
+ZCZC MaxMemory 4979M
+ZCZC MaxMemory 5227M
+ZCZC verifyTokenn cbkadalW09 cbkadal 5216-9D6F Verified
+ZCZC MaxMemory 5345M
+ZCZC MaxMemory 5411M
+ZCZC MaxMemory 5441M
+ZCZC MaxMemory 5451M
+ZCZC MaxMemory 5457M
+ZCZC MaxMemory 5467M
+ZCZC MaxMemory 5475M
+ZCZC MaxMemory 5492M
+ZCZC MaxMemory 5500M
+ZCZC MaxMemory 5510M
+ZCZC verifyTokenn cbkadalW09 cbkadal 5318-E951 Verified
+ZCZC MaxMemory 5526M
+ZCZC MaxMemory 5536M
+ZCZC MaxROOT 1740M
+ZCZC MaxMemory 5589M
+ZCZC MaxROOT 1793M
+ZCZC MaxMemory 5625M
+ZCZC MaxMemory 5654M
+ZCZC MaxMemory 5691M
+ZCZC MaxMemory 5726M
+ZCZC MaxMemory 5759M
+ZCZC MaxMemory 5787M
+ZCZC MaxMemory 5817M
+ZCZC verifyTokenn cbkadalW09 cbkadal 5422-1F61 Verified
+ZCZC MaxMemory 5852M
+ZCZC MaxMemory 5876M
+ZCZC MaxMemory 5900M
+ZCZC MaxMemory 5923M
+ZCZC MaxMemory 5947M
+ZCZC MaxMemory 5970M
+ZCZC MaxMemory 5992M
+ZCZC MaxMemory 6017M
+ZCZC MaxMemory 6040M
+ZCZC MaxMemory 6062M
+ZCZC verifyTokenn cbkadalW09 cbkadal 5525-24F6 Verified
+ZCZC MaxMemory 6090M
+ZCZC MaxROOT 1949M
+ZCZC MaxMemory 6107M
+ZCZC MaxMemory 6119M
+ZCZC MaxROOT 2361M
+ZCZC MaxMemory 6120M
+ZCZC MaxSwap 1M
+ZCZC MaxMemory 6121M
+ZCZC verifyTokenn cbkadalW09 cbkadal 5626-21E1 Verified
+ZCZC MaxMemory 6122M
+ZCZC MaxROOT 2405M
