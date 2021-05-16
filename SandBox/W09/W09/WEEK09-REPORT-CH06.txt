@@ -7,8 +7,8 @@ ZCZC Please Wait...
 ZCZC okSources 84
 ZCZC READY!
 ZCZC Sources  431M	/mnt/lfs/sources/
-ZCZC verifyTokenn cbkadalW09 cbkadal 5001-BBE2 Verified
+ZCZC verifyTokenn cbkadalW09 cbkadal 5048-39E6 Verified
 ZCZC MaxLFS 1864M
 ZCZC MaxROOT 1585M
-ZCZC MaxMemory 103M
+ZCZC MaxMemory 104M
 ZCZC MaxSwap 0M
