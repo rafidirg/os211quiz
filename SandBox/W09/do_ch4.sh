@@ -48,7 +48,7 @@ fecho "username $(whoami)"
 fecho "Please Wait..."
 fecho "okSources $(okSources)"
 fecho "READY!"
-fecho "Sources  $(du -h $LFSDIR/sources/ | head -2)"
+fecho "Sources  $(du -s -h $LFSDIR/sources/)"
 
 MaxLFS=0
 MaxROOT=0
