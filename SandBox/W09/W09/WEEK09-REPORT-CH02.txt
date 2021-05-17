@@ -1,5 +1,5 @@
-ZCZC ===== Chapter 02 =====  Week 09 =====
-ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
+ZCZC ===== Chapter 02 =====  Week 08 =====
+ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W08
 ZCZC date 210517-2242
 ZCZC hostname cbkadal
 ZCZC username cbkadal
