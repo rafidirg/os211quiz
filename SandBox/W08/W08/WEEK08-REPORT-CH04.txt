@@ -1,0 +1,22 @@
+ZCZC ===== Chapter 04 =====  Week 08 =====
+ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W08/W08
+ZCZC date 210518-0008
+ZCZC hostname cbkadal
+ZCZC username cbkadal
+ZCZC Please Wait...
+ZCZC okSources 84
+ZCZC READY!
+ZCZC Sources  431M	/mnt/lfs/sources/
+ZCZC verifyTokenn cbkadalW08 cbkadal 1006-706C Verified
+ZCZC MaxLFS 482M
+ZCZC MaxROOT 1592M
+ZCZC MaxMemory 95M
+ZCZC MaxSwap 0M
+ZCZC MaxMemory 96M
+ZCZC verifyTokenn cbkadalW08 cbkadal 1110-F8EF Verified
+ZCZC MaxMemory 99M
+ZCZC MaxMemory 101M
+ZCZC MaxMemory 102M
+ZCZC MaxMemory 103M
+ZCZC MaxMemory 107M
+ZCZC verifyTokenn cbkadalW08 cbkadal 1211-46EB Verified
