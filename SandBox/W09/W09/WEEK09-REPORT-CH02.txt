@@ -1,0 +1,10 @@
+ZCZC ===== Chapter 02 =====  Week 09 =====
+ZCZC pwd /home/cbkadal/git/os211quiz/SandBox/W09/W09
+ZCZC date 210517-2242
+ZCZC hostname cbkadal
+ZCZC username cbkadal
+ZCZC verifyTokenn cbkadalW09 cbkadal 4238-C59E Verified
+ZCZC MaxLFS 52M
+ZCZC MaxROOT 1591M
+ZCZC MaxMemory 95M
+ZCZC MaxSwap 0M
